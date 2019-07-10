@@ -13,9 +13,36 @@ section {
 }
 
 .header__container{
-    
+    border: 1px red solid;
 }
 
 .logo {
     width: 200px;
+}
+
+.header__flex__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu__items__right {
+
+}
+
+.menu__items__right__ul {
+    display: flex;
+    margin: 15px 0 15px 0;
+    list-style-type: none;
+    font-size: 12px;
+    color: #11743f;
+    font-weight: 700;
+}
+
+.menu__list__text {
+    padding: 0 20px;
+}
+
+.menu__list__text.no__padding__right {
+padding-right: 0;
 }
