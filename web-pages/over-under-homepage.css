@@ -1,0 +1,21 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section.hero__image div.hero__image div h1.hero__text__h1 {
+
+} targeting specific element class*/
+
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header__container{
+    
+}
+
+.logo {
+    width: 200px;
+}
