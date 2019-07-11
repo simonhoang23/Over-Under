@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* section.hero__image div.hero__image div h1.hero__text__h1 {
@@ -13,7 +13,7 @@ section {
 }
 
 .header__container{
-    border: 1px red solid;
+
 }
 
 .logo {
@@ -23,16 +23,22 @@ section {
 .header__flex__container {
     display: flex;
     justify-content: space-between;
+    margin: 30px 0 50px 0;
 }
 
 
 .menu__items__right {
-
+    
 }
 
 .menu__items__right__ul {
     display: flex;
     margin: 15px 0 15px 0;
+
+}
+
+.menu__items__right__ul li a {
+    text-decoration: none;
     list-style-type: none;
     font-size: 12px;
     color: #11743f;
@@ -40,9 +46,14 @@ section {
 }
 
 .menu__list__text {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .menu__list__text.no__padding__right {
 padding-right: 0;
+}
+
+.homepage__hero__image {
+    max-width: 100%;
+    
 }
