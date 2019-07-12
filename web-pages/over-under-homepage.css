@@ -86,16 +86,10 @@ padding-right: 0;
 }
 
 .text__h2 {
-    padding: 0 15px 0 0;
-    display: inline-block;
-    
-}
-
-.text__h2 + .text__h2 {
     padding: 0 15px 0 15px;
-    border-left: 2px solid black;
+    border-right: 2px solid black; 
 }
 
-.text__h2:last-child {
-    padding-right: 0;
+.text__h2.no__border__right {
+    border: none;
 }
