@@ -57,3 +57,45 @@ padding-right: 0;
     max-width: 100%;
     
 }
+
+.social__media__links__ig {
+    width: 30px;
+    height: 30px;
+    fill: #11743f;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+
+.social__media__links__email {
+    width: 27px;
+    height: 30px;
+    stroke: #11743f;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+
+.title__h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.text__h2__container {
+    text-align: center;
+}
+
+.text__h2 {
+    padding: 0 15px 0 0;
+    display: inline-block;
+    
+}
+
+.text__h2 + .text__h2 {
+    padding: 0 15px 0 15px;
+    border-left: 2px solid black;
+}
+
+.text__h2:last-child {
+    padding-right: 0;
+}
