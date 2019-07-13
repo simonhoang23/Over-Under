@@ -96,7 +96,7 @@ padding-right: 0;
 }
 
 .grid__images__1__container {
-    
+    border: 1px red solid;
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
