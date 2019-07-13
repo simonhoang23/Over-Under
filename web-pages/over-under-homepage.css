@@ -83,6 +83,7 @@ padding-right: 0;
 
 .text__h2__container {
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .text__h2 {
@@ -92,4 +93,37 @@ padding-right: 0;
 
 .text__h2.no__border__right {
     border: none;
+}
+
+.grid__images__1__container {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.grid__image__single {
+    width: 100%;
+    object-fit: cover;
+    height: 83%;
+    display: inline-block;
+}
+
+.square__images__2 {
+
+}
+
+.square__images__1 {
+    width: 21%;
+    object-fit: cover;
+    height: 21%;
+    padding-left: 34px;
+}
+
+.grid__image__last {
+    height: 58%;
+    display: inline-block;
+    padding: 34px 0 0 34px;
+    width: 96.4%;
+    object-fit: cover;
 }
