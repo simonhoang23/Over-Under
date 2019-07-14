@@ -53,6 +53,10 @@ section {
 padding-right: 0;
 }
 
+.menu__items__right__ul li a:hover {
+    text-decoration: underline;
+}
+
 .homepage__hero__image {
     max-width: 100%;
     
@@ -126,4 +130,48 @@ padding-right: 0;
     padding: 34px 0 0 34px;
     width: 96.4%;
     object-fit: cover;
+}
+
+.hr {
+    padding: 20px 0 20px 0;
+}
+
+.menu__section__1__container {
+    
+    padding: 20px;
+}
+
+.menu__section__1__ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.menu__section__1__li a  {
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    color: #11743f;
+    font-weight: bold;
+}
+
+.menu__section__1__li:hover {
+    text-decoration: underline;
+}
+
+.p__text__container{
+    
+    font-size: 13px;   
+    text-align: center;
+    line-height: 1.8;
+}
+
+.menu__title {
+    font-weight: bold;
+    
+}
+
+.menu__price {
+    padding-bottom: 20px;
 }
