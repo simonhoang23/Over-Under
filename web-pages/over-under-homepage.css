@@ -147,16 +147,24 @@ padding-right: 0;
     padding-bottom: 30px;
 }
 
-.menu__section__1__li a  {
+.menu__section__1__li {
     padding-right: 50px;
+
+}
+
+.menu__section__1__li a {
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
-    text-decoration: none;
     color: #11743f;
     font-weight: bold;
 }
 
-.menu__section__1__li:hover {
+.menu__section__1__li.no__padding__right {
+    padding: 0;
+}
+
+.menu__section__1__li a:hover {
     text-decoration: underline;
 }
 
@@ -174,4 +182,8 @@ padding-right: 0;
 
 .menu__price {
     padding-bottom: 20px;
+}
+
+.menu__section__2__container {
+    border: 1px red solid;
 }
