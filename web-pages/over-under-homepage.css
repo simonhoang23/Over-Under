@@ -187,3 +187,22 @@ padding-right: 0;
 .menu__section__2__container {
     border: 1px red solid;
 }
+
+.menu__section__2__flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu__section__2__h2__title {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.menu__section__2__text {
+    font-size: 13px;
+}
+
+.menu__section__2__text__post__code {
+    font-size: 13px;
+}
