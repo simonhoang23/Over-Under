@@ -102,33 +102,38 @@ padding-right: 0;
 .grid__images__1__container {
     border: 1px red solid;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 100px;
+}
+
+.grid__images__1__left {
+    min-width: 35%;
 }
 
 .grid__image__single {
     width: 100%;
     object-fit: cover;
-    height: 83%;
+    height: 100%;
     display: inline-block;
 }
 
 .square__images__2 {
-
+    min-width: 65%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .square__images__1 {
-    width: 21%;
+    width: 22%;
     object-fit: cover;
-    height: 21%;
-    padding-left: 34px;
+    height: 22%;
+    padding-left: 25px;
 }
 
 .grid__image__last {
-    height: 58%;
+    height: 75%;
     display: inline-block;
-    padding: 34px 0 0 34px;
-    width: 96.4%;
+    padding: 23px 0 0px 23px;
+    width: 100%;
     object-fit: cover;
 }
 
