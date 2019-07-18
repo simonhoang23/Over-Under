@@ -100,7 +100,6 @@ padding-right: 0;
 }
 
 .grid__images__1__container {
-    border: 1px red solid;
     display: flex;
     margin-bottom: 100px;
 }
@@ -236,4 +235,12 @@ padding-right: 0;
 
 .grid__images__2__right {
 width: 100%;
+}
+
+.our__coffee__section__container {
+    border: 1px red solid;
+}
+
+.our__coffee__section__flex1 {
+    
 }
