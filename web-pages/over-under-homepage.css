@@ -242,5 +242,9 @@ width: 100%;
 }
 
 .our__coffee__section__flex1 {
+    display: flex;
+}
+
+.our__coffee__section__image {
     
 }
