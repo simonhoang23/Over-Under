@@ -238,7 +238,7 @@ width: 100%;
 }
 
 .our__coffee__section__container {
-    
+    margin-bottom: 80px;
 }
 
 .our__coffee__section__flex1 {
@@ -270,4 +270,13 @@ width: 100%;
     font-size: 13px;
     line-height: 1.8;
     width: 571px;
+}
+
+.daytime__brunch__section__container {
+    border: 1px red solid;
+    margin-bottom: 80px;
+}
+
+.daytime__brunch__flex {
+    
 }
