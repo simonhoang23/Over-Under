@@ -273,7 +273,7 @@ width: 100%;
 }
 
 .daytime__brunch__section__container {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .daytime__brunch__section__h2__title {
@@ -310,4 +310,18 @@ width: 100%;
 
 .hr__daytime__brunch {
     margin-bottom: 80px;
+}
+
+.grid__images__container {
+    border: 1px red solid;
+}
+
+.grid__images__flex {
+display: flex;
+}
+
+.grid__images__4 {
+    width: 85%;
+    object-fit: cover;
+    height: 85%;
 }
