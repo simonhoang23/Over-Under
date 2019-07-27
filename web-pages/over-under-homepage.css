@@ -313,15 +313,16 @@ width: 100%;
 }
 
 .grid__images__container {
-    border: 1px red solid;
+    
 }
 
 .grid__images__flex {
 display: flex;
+max-width: 100%;
 }
 
 .grid__images__4 {
-    width: 85%;
+    width: 100%;
     object-fit: cover;
     height: 85%;
 }
