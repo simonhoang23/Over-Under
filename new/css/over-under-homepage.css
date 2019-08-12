@@ -12,28 +12,3 @@ section {
     margin: 0 auto;
 }
 
-.header__container {
-    
-}
-
-.header__container__flex {
-
-}
-
-.header__logo {
-    width: 200px;
-}
-
-.menu__nav__right {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
-}
-
-.menu__nav__ul {
-    display: flex;
-}
-
-.menu__nav__ul li {
-    padding-left: 30px;
-}
