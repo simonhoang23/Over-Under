@@ -12,3 +12,52 @@ section {
     margin: 0 auto;
 }
 
+.header__container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__nav__right {
+
+    display: flex;
+}
+
+.header__nav__ul {
+    align-items: center;
+    display: flex;
+}
+
+.header__nav__ul li a {
+    padding-left: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
+    color: #11743f;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header__nav__ul li a:hover {
+    text-decoration: underline;
+}
+
+.social__media__links__ig {
+    width: 30px;
+    height: 30px;
+    fill: #11743f;
+    padding-left: 15px;
+
+}
+
+.social__media__links__email {
+    width: 27px;
+    height: 30px;
+    stroke: #11743f;
+    padding-left: 15px;
+  
+}
