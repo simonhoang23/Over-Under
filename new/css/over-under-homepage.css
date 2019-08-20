@@ -61,3 +61,108 @@ section {
     padding-left: 15px;
   
 }
+
+.hero__section__container {
+    
+    margin-top: 50px;
+}
+
+.hero__image__background {
+    background: url('https://images.squarespace-cdn.com/content/v1/591f019b9de4bbd813dec8bf/1565279898667-2H8X2FFMAZQ9V8X76XKM/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC07558.jpg?format=2500w');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero__h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 40px;
+}
+
+.hero__p__container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__p {
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #b3b3b3;
+    border-right: 2px solid #b3b3b3;
+    padding: 0 10px 0 10px;
+}
+
+.hero__p.no__border__right {
+    border: none;
+}
+
+.hr {
+    margin: 40px 0 40px 0;
+}
+
+.about__border {
+    
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__location__h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.about__p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: center;
+    
+}
+
+.about__button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
