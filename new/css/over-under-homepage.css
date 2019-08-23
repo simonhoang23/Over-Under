@@ -230,3 +230,31 @@ section {
 .image__right {
     max-width: 55%;
 }
+
+.image__3__container{
+    
+}
+
+.image__3__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.image__3__left {
+    max-width: 100%;
+    padding-right: 65px;
+}
+
+.image__3__right {
+    max-width: 100%;
+}
+
+.image__3__left {
+    width: 150%;
+}
+
+.image__3__right {
+    width: 100%;
+}
