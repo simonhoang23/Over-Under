@@ -258,3 +258,50 @@ section {
 .image__3__right {
     width: 100%;
 }
+
+.our__coffee__container {
+    margin-bottom: 80px;
+}
+
+.our__coffee__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.our__coffee__h2__width {
+    max-width: 30%;
+
+}
+
+.our__coffee__image {
+    width: 100%;
+}
+
+.our__coffee__p__1 {
+    display: flex;
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 11px;
+    margin-bottom: 80px;
+} 
+
+.our__coffee__h2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.our__coffee__p__width {
+    max-width: 42%;
+}
+
+.our__coffee__p__2 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0 0 0 35px;
+    line-height: 2;
+
+}
