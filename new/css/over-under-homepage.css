@@ -305,3 +305,22 @@ section {
     line-height: 2;
 
 }
+
+.social__media__block__container {
+    margin-bottom: 80px;
+}
+
+.social__media__block__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__media__block__max__width {
+    max-width: 24%;
+}
+
+.social__media__block__image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
