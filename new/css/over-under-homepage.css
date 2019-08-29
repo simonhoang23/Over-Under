@@ -370,7 +370,7 @@ section {
   }
   
   .contact__container {
-      border: 1px solid red;
+      
   }
 
   .contact__button__cta {
@@ -387,11 +387,12 @@ section {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: 100;
     margin: 4px 2px;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
     cursor: pointer;
-    text-transform: uppercase;
+    
     margin-top: 30px;
   }
 
@@ -405,3 +406,28 @@ section {
     background-color: #117447;
     color: white;
   }
+
+  .contact__ul__email__careers {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 80px 0;
+    
+  }
+
+  .contact__li {
+    padding-right: 20px;
+
+  }
+
+  .contact__li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #11743f;
+  }
+
+  .contact__li.no__padding__right {
+      padding-right: 0;
+  }
+ 
